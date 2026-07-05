@@ -1,0 +1,34 @@
+{
+  "name": "japa-counter",
+  "version": "2.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android"
+  },
+  "dependencies": {
+    "expo": "~54.0.0",
+    "expo-router": "*",
+    "expo-av": "*",
+    "expo-haptics": "*",
+    "expo-status-bar": "*",
+    "expo-linking": "*",
+    "expo-constants": "*",
+    "expo-system-ui": "*",
+    "expo-speech-recognition": "*",
+    "@react-native-async-storage/async-storage": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*",
+    "react-native-safe-area-context": "*",
+    "react-native-screens": "*",
+    "react-native-gesture-handler": "*",
+    "expo-linear-gradient": "*",
+    "date-fns": "^3.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@types/react": "*",
+    "typescript": "*"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Jai Shri Ram",
+    "slug": "japa-counter",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FDF3E3"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#FDF3E3"
+      },
+      "package": "com.jaishriram.japacounter",
+      "versionCode": 2,
+      "permissions": ["android.permission.RECORD_AUDIO"]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-av",
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Allow Jai Shri Ram to use microphone for वाणी जप",
+          "speechRecognitionPermission": "Allow Jai Shri Ram to recognise your voice for वाणी जप"
+        }
+      ]
+    ],
+    "scheme": "japacounter",
+    "extra": {
+      "eas": { "projectId": "5ad62d3e-8071-481b-a4e2-0567088baaa7" }
+    }
+  }
+}
