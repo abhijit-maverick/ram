@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="74aa6765-6346-4701-94be-5df4d5f71947"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<style>/* latin-ext */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("8eeb0677-b117-4730-98db-61beb1860392") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("553482e3-34d9-4757-aebf-4a1726903f2a") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("8eeb0677-b117-4730-98db-61beb1860392") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("553482e3-34d9-4757-aebf-4a1726903f2a") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("8eeb0677-b117-4730-98db-61beb1860392") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("553482e3-34d9-4757-aebf-4a1726903f2a") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Tiro Devanagari Hindi';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("1cbfc725-1b02-4ed6-a3be-caeab65f2393") format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Tiro Devanagari Hindi';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("930b381f-2ed2-419c-b885-f07efb9c9b0e") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Tiro Devanagari Hindi';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("8147f3d9-10e1-4b33-bf48-dbc3a481f17d") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Tiro Devanagari Hindi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("eb40f85e-ed55-425f-b5d5-367633588bf4") format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Tiro Devanagari Hindi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("3d2dd6e8-44a7-4b20-929c-a9c046d2f491") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Tiro Devanagari Hindi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("31834b63-17e0-4343-9f36-395a86a929b5") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<style>
+html,body{margin:0;padding:0;background:#2a1503}
+*{box-sizing:border-box}
+@keyframes flicker{0%,100%{transform:scaleY(1) scaleX(1);opacity:1}25%{transform:scaleY(1.08) scaleX(.94) translateX(.5px);opacity:.92}50%{transform:scaleY(.94) scaleX(1.05);opacity:1}75%{transform:scaleY(1.05) scaleX(.96) translateX(-.5px);opacity:.9}}
+@keyframes smokeRise{0%{transform:translateY(0) translateX(0) scale(.5);opacity:0}15%{opacity:.3}60%{opacity:.18}100%{transform:translateY(-150px) translateX(16px) scale(1.8);opacity:0}}
+@keyframes floatUp{0%{transform:translateY(0) scale(.8);opacity:0}12%{opacity:1;transform:translateY(-10px) scale(1)}100%{transform:translateY(-140px) scale(1.05);opacity:0}}
+@keyframes petalUp{0%{transform:translate(0,0) rotate(0deg);opacity:1}100%{transform:translate(var(--dx,20px),-170px) rotate(var(--rot,200deg));opacity:0}}
+@keyframes petalFall{0%{transform:translate(0,-40px) rotate(0deg);opacity:1}100%{transform:translate(var(--dx,0px),920px) rotate(var(--rot,420deg));opacity:.15}}
+@keyframes rippleOut{0%{transform:scale(.55);opacity:.75}100%{transform:scale(2);opacity:0}}
+@keyframes breatheGlow{0%,100%{box-shadow:0 0 22px 6px rgba(240,168,48,.55),0 0 60px 18px rgba(240,168,48,.28),inset 0 0 24px rgba(255,220,150,.5)}50%{box-shadow:0 0 34px 12px rgba(240,168,48,.8),0 0 90px 30px rgba(240,168,48,.42),inset 0 0 30px rgba(255,225,160,.65)}}
+@keyframes pulseDot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(.65)}}
+@keyframes goldFlash{0%{opacity:.7}100%{opacity:0}}
+@keyframes glowPulse{0%,100%{box-shadow:0 0 40px rgba(240,168,48,.7)}50%{box-shadow:0 0 90px rgba(240,168,48,1)}}
+@keyframes raysDrift{0%,100%{opacity:.5;transform:rotate(-2deg)}50%{opacity:.75;transform:rotate(2deg)}}
+</style>
+</helmet>
+<div data-screen-label="Jai Shri Ram Japa" style="width:390px;height:100dvh;max-height:920px;margin:0 auto;position:relative;overflow:hidden;background:#FDF3E3;font-family:'Tiro Devanagari Hindi',serif;display:flex;flex-direction:column;user-select:none;-webkit-tap-highlight-color:transparent">
+
+  <!-- ======= TEMPLE BACKGROUND ======= -->
+  <sc-if value="{{ showBg }}" hint-placeholder-val="{{ true }}">
+  <div style="position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden">
+    <!-- sandstone wall base -->
+    <div style="position:absolute;inset:0;background:linear-gradient(180deg,#f6dfb4 0%,#f0d09a 22%,#ecc98f 45%,#e9c184 70%,#e2b573 100%)"></div>
+    <!-- stone courses -->
+    <div style="position:absolute;inset:0;background:repeating-linear-gradient(180deg,rgba(160,105,40,0) 0px,rgba(160,105,40,0) 58px,rgba(140,88,30,.10) 58px,rgba(140,88,30,.10) 60px);opacity:.8"></div>
+    <div style="position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(140,88,30,0) 0px,rgba(140,88,30,0) 96px,rgba(140,88,30,.07) 96px,rgba(140,88,30,.07) 98px);opacity:.7"></div>
+    <!-- carved band -->
+    <div style="position:absolute;top:118px;left:0;right:0;height:26px;background:repeating-linear-gradient(90deg,rgba(150,95,35,.18) 0 6px,rgba(255,235,190,.25) 6px 12px,rgba(150,95,35,.10) 12px 24px);box-shadow:inset 0 2px 3px rgba(120,70,20,.25),inset 0 -2px 3px rgba(255,240,200,.5)"></div>
+    <div style="position:absolute;top:150px;left:0;right:0;height:8px;background:linear-gradient(180deg,rgba(200,144,58,.35),rgba(200,144,58,.08));box-shadow:0 1px 2px rgba(120,70,20,.2)"></div>
+    <!-- left pillar -->
+    <div style="position:absolute;top:130px;bottom:0;left:6px;width:26px;background:linear-gradient(90deg,#c99a55,#f2ddae 40%,#e7c283 65%,#b9853f);box-shadow:2px 0 6px rgba(110,65,15,.3),inset 0 0 0 1px rgba(255,240,205,.3);border-radius:4px"></div>
+    <div style="position:absolute;top:130px;bottom:0;left:9px;width:20px;background:repeating-linear-gradient(180deg,rgba(120,70,20,.14) 0 3px,rgba(255,240,200,.12) 3px 9px);border-radius:4px"></div>
+    <!-- right pillar -->
+    <div style="position:absolute;top:130px;bottom:0;right:6px;width:26px;background:linear-gradient(90deg,#b9853f,#e7c283 35%,#f2ddae 60%,#c99a55);box-shadow:-2px 0 6px rgba(110,65,15,.3),inset 0 0 0 1px rgba(255,240,205,.3);border-radius:4px"></div>
+    <div style="position:absolute;top:130px;bottom:0;right:9px;width:20px;background:repeating-linear-gradient(180deg,rgba(120,70,20,.14) 0 3px,rgba(255,240,200,.12) 3px 9px);border-radius:4px"></div>
+    <!-- morning light rays -->
+    <div style="position:absolute;top:-140px;left:-100px;right:-100px;height:640px;background:conic-gradient(from 178deg at 50% 0%,rgba(255,214,120,0) 0deg,rgba(255,220,130,.34) 4deg,rgba(255,214,120,0) 9deg,rgba(255,220,130,.26) 14deg,rgba(255,214,120,0) 20deg,rgba(255,224,140,.3) 26deg,rgba(255,214,120,0) 33deg);filter:blur(6px);animation:raysDrift 9s ease-in-out infinite;transform-origin:50% 0"></div>
+    <!-- warm arch glow behind mala -->
+    <div style="position:absolute;top:250px;left:50%;transform:translateX(-50%);width:340px;height:380px;background:radial-gradient(ellipse at 50% 40%,rgba(255,206,110,.5) 0%,rgba(255,196,100,.2) 45%,rgba(255,196,100,0) 72%)"></div>
+    <!-- marigold garland strands (dotted-border arcs) -->
+    <div style="position:absolute;top:-64px;left:-30px;width:250px;height:130px;border:0 solid transparent;border-bottom:13px dotted #f0a830;border-radius:50%;filter:drop-shadow(0 2px 2px rgba(120,60,0,.4))"></div>
+    <div style="position:absolute;top:-58px;left:-24px;width:238px;height:122px;border:0 solid transparent;border-bottom:9px dotted #e0641e;border-radius:50%;opacity:.95"></div>
+    <div style="position:absolute;top:-64px;right:-30px;width:250px;height:130px;border:0 solid transparent;border-bottom:13px dotted #f0a830;border-radius:50%;filter:drop-shadow(0 2px 2px rgba(120,60,0,.4))"></div>
+    <div style="position:absolute;top:-58px;right:-24px;width:238px;height:122px;border:0 solid transparent;border-bottom:9px dotted #e0641e;border-radius:50%;opacity:.95"></div>
+    <div style="position:absolute;top:-40px;left:120px;width:150px;height:110px;border:0 solid transparent;border-bottom:12px dotted #f7b93e;border-radius:50%;filter:drop-shadow(0 2px 2px rgba(120,60,0,.35))"></div>
+    <!-- incense stick + smoke -->
+    <div style="position:absolute;bottom:120px;left:34px;width:3px;height:70px;background:linear-gradient(180deg,#6b3416,#3c1c08);border-radius:2px"></div>
+    <div style="position:absolute;bottom:188px;left:33px;width:5px;height:5px;border-radius:50%;background:radial-gradient(circle,#ffb35c,#c0450a);box-shadow:0 0 6px 2px rgba(255,140,40,.7)"></div>
+    <div style="position:absolute;bottom:192px;left:26px;width:18px;height:44px;border-radius:50%;background:radial-gradient(ellipse,rgba(210,200,190,.55),rgba(210,200,190,0) 70%);filter:blur(4px);animation:smokeRise 5s ease-out infinite"></div>
+    <div style="position:absolute;bottom:192px;left:24px;width:22px;height:52px;border-radius:50%;background:radial-gradient(ellipse,rgba(220,212,200,.45),rgba(220,212,200,0) 70%);filter:blur(6px);animation:smokeRise 6.5s ease-out 2s infinite"></div>
+    <div style="position:absolute;bottom:192px;left:28px;width:16px;height:40px;border-radius:50%;background:radial-gradient(ellipse,rgba(230,222,210,.4),rgba(230,222,210,0) 70%);filter:blur(5px);animation:smokeRise 5.8s ease-out 3.6s infinite"></div>
+    <!-- big diya right side -->
+    <div style="position:absolute;bottom:118px;right:36px;width:56px;height:22px;background:radial-gradient(ellipse at 50% 0%,#8a4a12 0%,#5A1E00 70%);border-radius:0 0 28px 28px;box-shadow:inset 0 -4px 6px rgba(0,0,0,.4),0 3px 8px rgba(90,30,0,.4)"></div>
+    <div style="position:absolute;bottom:136px;right:56px;width:16px;height:26px;border-radius:50% 50% 45% 45%/62% 62% 38% 38%;background:radial-gradient(ellipse at 50% 78%,#fff 0%,#ffe66e 26%,#ffab24 55%,#f05a0a 78%,rgba(240,60,10,0) 100%);filter:blur(.4px);animation:flicker 2.2s ease-in-out infinite;transform-origin:50% 100%"></div>
+    <div style="position:absolute;bottom:126px;right:40px;width:48px;height:48px;border-radius:50%;background:radial-gradient(circle,rgba(255,170,60,.5),rgba(255,170,60,0) 70%);animation:flicker 2.2s ease-in-out infinite"></div>
+    <!-- warm overlay -->
+    <div style="position:absolute;inset:0;background:rgba(253,243,227,0.55)"></div>
+  </div>
+  </sc-if>
+
+  <!-- gold flash at 54 -->
+  <sc-if value="{{ showFlash }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute;inset:0;z-index:50;pointer-events:none;background:radial-gradient(circle at 50% 45%,rgba(255,214,110,.9),rgba(255,190,80,.35) 60%,rgba(255,190,80,0));animation:goldFlash .8s ease-out forwards"></div>
+  </sc-if>
+  <!-- 108 celebration -->
+  <sc-if value="{{ showCelebration }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute;inset:0;z-index:52;display:flex;align-items:center;justify-content:center;pointer-events:none">
+      <div style="background:rgba(90,30,0,.93);color:#FFDf9A;padding:20px 28px;border-radius:18px;font-size:19px;text-align:center;line-height:1.5;border:1.5px solid rgba(240,168,48,.7);animation:glowPulse 1.2s ease-in-out infinite">🎉 एक माला पूर्ण<br>जय श्री राम!</div>
+    </div>
+  </sc-if>
+
+  <!-- floating chant texts -->
+  <sc-for list="{{ floats }}" as="f" hint-placeholder-count="0">
+    <div style="{{ f.style }}">{{ f.text }}</div>
+  </sc-for>
+  <!-- petals -->
+  <sc-for list="{{ petals }}" as="p" hint-placeholder-count="0">
+    <div style="{{ p.style }}"><div style="position:absolute;left:50%;top:12%;width:1px;height:72%;background:rgba(140,55,40,.35);border-radius:1px"></div></div>
+  </sc-for>
+  <!-- ripples -->
+  <sc-for list="{{ ripples }}" as="r" hint-placeholder-count="0">
+    <div style="{{ r.style }}"></div>
+  </sc-for>
+
+  <!-- ======= CONTENT AREA ======= -->
+  <div style="position:relative;z-index:2;flex:1;overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column">
+
+  <!-- ================= HOME ================= -->
+  <sc-if value="{{ isJap }}" hint-placeholder-val="{{ true }}">
+  <div data-screen-label="जप (Home)" style="display:flex;flex-direction:column;align-items:center;padding:10px 14px 18px;gap:10px">
+    <!-- top bar -->
+    <div style="width:100%;display:flex;align-items:center;justify-content:space-between;gap:8px">
+      <span style="font-size:20px;filter:drop-shadow(0 1px 1px rgba(120,60,0,.4))">👑</span>
+      <span style="font-size:14px;color:#C8903A;letter-spacing:2px;font-weight:700;text-shadow:0 1px 0 rgba(255,255,255,.7),0 2px 4px rgba(139,58,0,.25);text-align:center">|| श्रीराम जय राम जय जय राम ||</span>
+      <button onclick="{{ goSettings }}" style="background:none;border:none;font-size:18px;cursor:pointer;padding:2px;color:#8B3A00">⚙️</button>
+    </div>
+
+    <!-- stats card -->
+    <div style="width:100%;display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:rgba(255,255,255,0.75);border:1px solid rgba(180,120,40,0.25);border-radius:14px;padding:10px 4px;backdrop-filter:blur(8px);box-shadow:0 4px 16px rgba(139,58,0,.10)">
+      <div style="text-align:center;border-right:1px solid rgba(200,144,58,.35);padding:0 4px">
+        <div style="font-size:16px;font-weight:700;color:#8B3A00">🔥 {{ streak }}</div>
+        <div style="font-size:10px;color:#a3672c">{{ t.streak }}</div>
+      </div>
+      <div style="text-align:center;border-right:1px solid rgba(200,144,58,.35);padding:0 4px">
+        <div style="font-size:16px;font-weight:700;color:#8B3A00">{{ todayCount }}</div>
+        <div style="font-size:10px;color:#a3672c">{{ t.today }}</div>
+      </div>
+      <div style="text-align:center;border-right:1px solid rgba(200,144,58,.35);padding:0 4px">
+        <div style="font-size:16px;font-weight:700;color:#8B3A00">{{ dailyGoal }}</div>
+        <div style="font-size:10px;color:#a3672c">{{ t.goal }}</div>
+      </div>
+      <div style="text-align:center;padding:0 4px">
+        <div style="font-size:16px;font-weight:700;color:#8B3A00">{{ totalCount }}</div>
+        <div style="font-size:10px;color:#a3672c">{{ t.total }}</div>
+      </div>
+    </div>
+
+    <!-- banner -->
+    <div style="width:100%;text-align:center;background:rgba(255,255,255,0.75);border:1px solid rgba(180,120,40,0.25);border-radius:12px;padding:7px;backdrop-filter:blur(8px);color:#5A1E00;letter-spacing:4px;font-size:16px;font-weight:700">राम नाम जप</div>
+
+    <!-- big count -->
+    <div style="font-size:56px;font-weight:700;color:#8B3A00;line-height:1;text-shadow:0 2px 0 rgba(255,255,255,.8),0 4px 14px rgba(139,58,0,.25);font-family:'Cinzel',serif">{{ todayCount }}</div>
+
+    <!-- MALA + CHARAN -->
+    <div style="position:relative;width:250px;height:264px;display:flex;align-items:flex-start;justify-content:center">
+      <div style="{{ malaRingStyle }}">
+        <sc-for list="{{ beads }}" as="b" hint-placeholder-count="0">
+          <div style="{{ b.style }}"></div>
+        </sc-for>
+      </div>
+      <!-- tassel -->
+      <div style="position:absolute;left:50%;top:232px;transform:translateX(-50%);width:12px;height:12px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ffe9ad,#e2a936 55%,#9a6a14);box-shadow:0 1px 3px rgba(110,60,0,.5)"></div>
+      <div style="position:absolute;left:50%;top:242px;transform:translateX(-50%);width:16px;height:22px;background:repeating-linear-gradient(90deg,#d9a63a 0 2px,#b07f1e 2px 4px);border-radius:2px 2px 6px 6px;clip-path:polygon(20% 0,80% 0,100% 100%,0 100%)"></div>
+      <!-- glow halo (tweakable) -->
+      <div style="{{ glowHaloStyle }}"></div>
+      <!-- charan button -->
+      <button onclick="{{ tap }}" aria-label="जप करें" style="position:absolute;left:50%;top:120px;transform:translate(-50%,-50%);width:160px;height:160px;border-radius:50%;border:3px solid #C8903A;cursor:pointer;background:radial-gradient(circle at 50% 32%,#fff8e8 0%,#fdeecb 45%,#f7dda4 78%,#eec97f 100%);animation:breatheGlow 3.2s ease-in-out infinite;transition:transform .18s cubic-bezier(.34,1.8,.64,1);overflow:hidden;padding:0" style-active="transform:translate(-50%,-50%) scale(0.90)">
+        <div style="position:relative;width:100%;height:100%;border-radius:50%;overflow:hidden">
+          <img src="2c462bc3-2831-452d-9bd9-903d2144b0eb" alt="श्री राम चरण" style="position:absolute;left:13%;top:7%;width:74%;height:74%;object-fit:contain;transition:transform .25s ease" style-hover="transform:scale(1.05)">
+          <div style="position:absolute;left:0;top:0;right:0;bottom:0;border-radius:50%;background:linear-gradient(180deg,rgba(90,30,0,0) 62%,rgba(90,30,0,0.16) 100%);pointer-events:none"></div>
+          <div style="position:absolute;left:0;top:0;right:0;bottom:0;border-radius:50%;box-shadow:inset 0 0 26px rgba(240,168,48,.55);pointer-events:none"></div>
+          <div style="position:absolute;left:0;right:0;bottom:8px;text-align:center;font-size:12px;color:#8B3A00;letter-spacing:3px;text-shadow:0 1px 2px rgba(255,255,255,.7);pointer-events:none;font-family:'Tiro Devanagari Hindi',serif">चरण स्पर्श</div>
+        </div>
+      </button>
+    </div>
+
+    <!-- mode toggle -->
+    <div style="position:relative;display:grid;grid-template-columns:1fr 1fr;width:220px;background:rgba(255,255,255,0.75);border:1px solid rgba(180,120,40,0.25);border-radius:999px;padding:4px;backdrop-filter:blur(8px)">
+      <div style="{{ pillStyle }}"></div>
+      <button onclick="{{ setModeMan }}" style="{{ manBtnStyle }}">मन जप</button>
+      <button onclick="{{ setModeVaani }}" style="{{ vaaniBtnStyle }}">वाणी जप</button>
+    </div>
+    <sc-if value="{{ isVaani }}" hint-placeholder-val="{{ false }}">
+      <div style="display:flex;flex-direction:column;align-items:center;gap:3px">
+        <div style="display:flex;align-items:center;gap:8px">
+          <span style="width:10px;height:10px;border-radius:50%;background:#2f9e44;box-shadow:0 0 8px rgba(47,158,68,.8);animation:pulseDot 1.3s ease-in-out infinite"></span>
+          <span style="font-size:13px;color:#5A1E00">{{ listenLabel }}</span>
+        </div>
+        <div style="font-size:11px;color:#a3672c;max-width:320px;text-align:center;min-height:14px;font-style:italic">{{ transcript }}</div>
+      </div>
+    </sc-if>
+
+    <!-- progress -->
+    <div style="width:100%;max-width:330px">
+      <div style="display:flex;justify-content:space-between;font-size:11px;color:#8B3A00;margin-bottom:4px">
+        <span>आज का लक्ष्य</span><span>{{ progressPct }}%</span>
+      </div>
+      <div style="height:7px;border-radius:4px;background:rgba(180,120,40,.18);overflow:hidden;border:1px solid rgba(180,120,40,.2)">
+        <div style="height:100%;border-radius:4px;background:linear-gradient(90deg,#C8903A,#F0A830);box-shadow:0 0 8px rgba(240,168,48,.6);transition:width .5s ease;width:{{ progressPct }}%"></div>
+      </div>
+    </div>
+
+    <!-- decoration row -->
+    <div style="display:flex;align-items:flex-end;gap:26px;margin-top:2px">
+      <div style="position:relative;width:34px;height:26px">
+        <div style="position:absolute;left:50%;bottom:0;transform:translateX(-50%) rotate(-30deg);width:13px;height:24px;border-radius:50% 50% 50% 50%/64% 64% 36% 36%;background:linear-gradient(180deg,#fbd0e0,#ee86ae)"></div>
+        <div style="position:absolute;left:50%;bottom:0;transform:translateX(-50%) rotate(30deg);width:13px;height:24px;border-radius:50% 50% 50% 50%/64% 64% 36% 36%;background:linear-gradient(180deg,#fbd0e0,#ee86ae)"></div>
+        <div style="position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:14px;height:26px;border-radius:50% 50% 50% 50%/64% 64% 36% 36%;background:linear-gradient(180deg,#ffe4ef,#f3a5c5)"></div>
+      </div>
+      <div style="position:relative;width:44px;height:38px">
+        <div style="position:absolute;bottom:0;left:0;width:44px;height:16px;background:radial-gradient(ellipse at 50% 0%,#8a4a12,#5A1E00 75%);border-radius:0 0 22px 22px;box-shadow:inset 0 -3px 5px rgba(0,0,0,.4)"></div>
+        <div style="position:absolute;bottom:13px;left:16px;width:12px;height:20px;border-radius:50% 50% 45% 45%/62% 62% 38% 38%;background:radial-gradient(ellipse at 50% 78%,#fff 0%,#ffe66e 28%,#ffab24 58%,#f05a0a 80%,rgba(240,60,10,0) 100%);animation:flicker 1.9s ease-in-out infinite;transform-origin:50% 100%"></div>
+      </div>
+      <div style="position:relative;width:34px;height:26px">
+        <div style="position:absolute;left:50%;bottom:0;transform:translateX(-50%) rotate(-30deg);width:13px;height:24px;border-radius:50% 50% 50% 50%/64% 64% 36% 36%;background:linear-gradient(180deg,#fbd0e0,#ee86ae)"></div>
+        <div style="position:absolute;left:50%;bottom:0;transform:translateX(-50%) rotate(30deg);width:13px;height:24px;border-radius:50% 50% 50% 50%/64% 64% 36% 36%;background:linear-gradient(180deg,#fbd0e0,#ee86ae)"></div>
+        <div style="position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:14px;height:26px;border-radius:50% 50% 50% 50%/64% 64% 36% 36%;background:linear-gradient(180deg,#ffe4ef,#f3a5c5)"></div>
+      </div>
+    </div>
+  </div>
+  </sc-if>
+
+  <!-- ================= HISTORY ================= -->
+  <sc-if value="{{ isHistory }}" hint-placeholder-val="{{ false }}">
+  <div data-screen-label="इतिहास (History)" style="padding:18px 16px 24px;display:flex;flex-direction:column;gap:14px">
+    <div>
+      <div style="font-size:24px;font-weight:700;color:#5A1E00;letter-spacing:1px">जप इतिहास</div>
+      <div style="font-size:12px;color:#a3672c">पिछले ९० दिन</div>
+    </div>
+    <sc-if value="{{ hasHistory }}" hint-placeholder-val="{{ true }}">
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px">
+        <div style="background:rgba(255,255,255,0.75);border:1px solid rgba(180,120,40,0.25);border-radius:12px;padding:10px 6px;text-align:center;backdrop-filter:blur(8px)">
+          <div style="font-size:18px;font-weight:700;color:#8B3A00">{{ bestDay }}</div>
+          <div style="font-size:10px;color:#a3672c">{{ t.best }}</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.75);border:1px solid rgba(180,120,40,0.25);border-radius:12px;padding:10px 6px;text-align:center;backdrop-filter:blur(8px)">
+          <div style="font-size:18px;font-weight:700;color:#8B3A00">{{ avgDay }}</div>
+          <div style="font-size:10px;color:#a3672c">{{ t.avg }}</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.75);border:1px solid rgba(180,120,40,0.25);border-radius:12px;padding:10px 6px;text-align:center;backdrop-filter:blur(8px)">
+          <div style="font-size:18px;font-weight:700;color:#8B3A00">{{ daysPracticed }}</div>
+          <div style="font-size:10px;color:#a3672c">{{ t.days }}</div>
+        </div>
+      </div>
+      <div style="background:rgba(255,255,255,0.75);border:1px solid rgba(180,120,40,0.25);border-radius:14px;padding:12px;backdrop-filter:blur(8px)">
+        <sc-for list="{{ bars }}" as="b" hint-placeholder-count="6">
+          <div style="{{ b.rowStyle }}">
+            <div style="width:54px;font-size:11px;color:#8B3A00;flex:none">{{ b.label }}</div>
+            <div style="flex:1;height:14px;background:rgba(180,120,40,.12);border-radius:7px;overflow:hidden">
+              <div style="{{ b.fillStyle }}"></div>
+            </div>
+            <div style="width:40px;font-size:11px;font-weight:700;color:#5A1E00;text-align:right;flex:none">{{ b.count }}</div>
+            <div style="width:14px;font-size:11px;color:#C8903A;flex:none">{{ b.check }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </sc-if>
+    <sc-if value="{{ noHistory }}" hint-placeholder-val="{{ false }}">
+      <div style="display:flex;flex-direction:column;align-items:center;gap:10px;padding:60px 20px;text-align:center">
+        <div style="font-size:44px">🪷</div>
+        <div style="font-size:16px;color:#5A1E00;font-weight:700">अभी तक कोई इतिहास नहीं</div>
+        <div style="font-size:13px;color:#a3672c">जप करना शुरू करें</div>
+      </div>
+    </sc-if>
+  </div>
+  </sc-if>
+
+  <!-- ================= STREAK ================= -->
+  <sc-if value="{{ isStreak }}" hint-placeholder-val="{{ false }}">
+  <div data-screen-label="अनुक्रम (Streak)" style="padding:18px 16px 24px;display:flex;flex-direction:column;gap:14px;align-items:center">
+    <div style="width:100%">
+      <div style="font-size:24px;font-weight:700;color:#5A1E00;letter-spacing:1px">जप अनुक्रम</div>
+    </div>
+    <div style="width:150px;height:150px;border-radius:50%;background:rgba(255,255,255,0.8);border:3px solid #C8903A;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;animation:glowPulse 3s ease-in-out infinite">
+      <div style="font-size:38px;font-weight:700;color:#8B3A00;line-height:1">🔥 {{ streak }}</div>
+      <div style="font-size:12px;color:#a3672c">दिन का अनुक्रम</div>
+    </div>
+    <div style="display:flex;gap:12px;width:100%">
+      <div style="flex:1;background:rgba(255,255,255,0.75);border:1px solid rgba(180,120,40,0.25);border-radius:12px;padding:10px;text-align:center;backdrop-filter:blur(8px)">
+        <div style="font-size:17px;font-weight:700;color:#8B3A00">{{ streak }}</div>
+        <div style="font-size:10px;color:#a3672c">{{ t.current }}</div>
+      </div>
+      <div style="flex:1;background:rgba(255,255,255,0.75);border:1px solid rgba(180,120,40,0.25);border-radius:12px;padding:10px;text-align:center;backdrop-filter:blur(8px)">
+        <div style="font-size:17px;font-weight:700;color:#8B3A00">{{ longestStreak }}</div>
+        <div style="font-size:10px;color:#a3672c">{{ t.longest }}</div>
+      </div>
+    </div>
+    <div style="width:100%;background:rgba(255,255,255,0.75);border:1px solid rgba(180,120,40,0.25);border-radius:14px;padding:12px;backdrop-filter:blur(8px)">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+        <button onclick="{{ prevMonth }}" style="background:none;border:1px solid rgba(180,120,40,.35);border-radius:8px;width:30px;height:30px;color:#8B3A00;font-size:14px;cursor:pointer">‹</button>
+        <div style="font-size:14px;font-weight:700;color:#5A1E00">{{ monthLabel }}</div>
+        <button onclick="{{ nextMonth }}" style="background:none;border:1px solid rgba(180,120,40,.35);border-radius:8px;width:30px;height:30px;color:#8B3A00;font-size:14px;cursor:pointer">›</button>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:5px;margin-bottom:6px">
+        <div style="text-align:center;font-size:9px;color:#a3672c">र</div><div style="text-align:center;font-size:9px;color:#a3672c">सो</div><div style="text-align:center;font-size:9px;color:#a3672c">मं</div><div style="text-align:center;font-size:9px;color:#a3672c">बु</div><div style="text-align:center;font-size:9px;color:#a3672c">गु</div><div style="text-align:center;font-size:9px;color:#a3672c">शु</div><div style="text-align:center;font-size:9px;color:#a3672c">श</div>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:5px">
+        <sc-for list="{{ calCells }}" as="c" hint-placeholder-count="0">
+          <div style="{{ c.style }}"><span>{{ c.label }}</span><span style="font-size:8px;line-height:1">{{ c.mark }}</span></div>
+        </sc-for>
+      </div>
+      <div style="display:flex;gap:14px;margin-top:12px;justify-content:center;flex-wrap:wrap">
+        <div style="display:flex;align-items:center;gap:5px;font-size:10px;color:#8B3A00"><span style="width:12px;height:12px;border-radius:4px;background:linear-gradient(135deg,#F0A830,#C8903A)"></span>{{ t.goalMet }}</div>
+        <div style="display:flex;align-items:center;gap:5px;font-size:10px;color:#8B3A00"><span style="width:12px;height:12px;border-radius:4px;background:rgba(240,168,48,.3)"></span>{{ t.partial }}</div>
+        <div style="display:flex;align-items:center;gap:5px;font-size:10px;color:#8B3A00"><span style="width:12px;height:12px;border-radius:4px;background:rgba(180,120,40,.1);border:1px solid rgba(180,120,40,.25)"></span>{{ t.none }}</div>
+      </div>
+    </div>
+    <div style="text-align:center;padding:8px 20px">
+      <div style="font-size:18px;color:#8B3A00;letter-spacing:3px;font-weight:700;text-shadow:0 1px 0 rgba(255,255,255,.8)">राम से बड़ा राम का नाम</div>
+      <div style="font-size:11px;color:#a3672c;margin-top:3px;font-family:'Cinzel',serif">॥ जय श्री राम ॥</div>
+    </div>
+  </div>
+  </sc-if>
+
+  <!-- ================= SETTINGS ================= -->
+  <sc-if value="{{ isSettings }}" hint-placeholder-val="{{ false }}">
+  <div data-screen-label="सेटिंग (Settings)" style="padding:18px 16px 24px;display:flex;flex-direction:column;gap:14px">
+    <div>
+      <div style="font-size:24px;font-weight:700;color:#5A1E00;letter-spacing:1px">सेटिंग</div>
+      <div style="font-size:12px;color:#a3672c">ॐ तत् सत्</div>
+    </div>
+    <!-- goal -->
+    <div style="background:rgba(255,255,255,0.75);border:1px solid rgba(180,120,40,0.25);border-radius:14px;padding:14px;backdrop-filter:blur(8px);display:flex;flex-direction:column;gap:10px">
+      <div style="font-size:14px;font-weight:700;color:#5A1E00">{{ t.dailyGoal }} — <span style="color:#C8903A">{{ dailyGoal }}</span></div>
+      <div style="display:flex;flex-wrap:wrap;gap:8px">
+        <sc-for list="{{ presets }}" as="p" hint-placeholder-count="6">
+          <button onclick="{{ p.onTap }}" style="{{ p.style }}">{{ p.v }}</button>
+        </sc-for>
+      </div>
+      <div style="display:flex;gap:8px">
+        <input ref="{{ goalRef }}" type="number" min="1" placeholder="{{ t.customGoal }}" style="flex:1;border:1px solid rgba(180,120,40,.35);border-radius:10px;padding:8px 12px;font-size:14px;background:rgba(255,255,255,.8);color:#5A1E00;font-family:inherit;outline:none">
+        <button onclick="{{ applyCustomGoal }}" style="background:linear-gradient(135deg,#F0A830,#C8903A);color:#fff;border:none;border-radius:10px;padding:8px 16px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit">लागू करें</button>
+      </div>
+    </div>
+    <!-- audio -->
+    <div style="background:rgba(255,255,255,0.75);border:1px solid rgba(180,120,40,0.25);border-radius:14px;padding:14px;backdrop-filter:blur(8px);display:flex;flex-direction:column;gap:12px">
+      <div style="font-size:14px;font-weight:700;color:#5A1E00">{{ t.audio }}</div>
+      <sc-for list="{{ toggles }}" as="g" hint-placeholder-count="2">
+        <div style="display:flex;align-items:center;justify-content:space-between">
+          <span style="font-size:13px;color:#8B3A00">{{ g.label }}</span>
+          <button onclick="{{ g.onTap }}" style="{{ g.trackStyle }}"><span style="{{ g.knobStyle }}"></span></button>
+        </div>
+      </sc-for>
+    </div>
+    <!-- language -->
+    <div style="background:rgba(255,255,255,0.75);border:1px solid rgba(180,120,40,0.25);border-radius:14px;padding:14px;backdrop-filter:blur(8px);display:flex;flex-direction:column;gap:10px">
+      <div style="font-size:14px;font-weight:700;color:#5A1E00">{{ t.language }}</div>
+      <div style="display:flex;gap:8px">
+        <button onclick="{{ setLangHi }}" style="{{ langHiStyle }}">हिंदी</button>
+        <button onclick="{{ setLangEn }}" style="{{ langEnStyle }}">English</button>
+      </div>
+    </div>
+    <!-- data -->
+    <div style="background:rgba(255,255,255,0.75);border:1px solid rgba(180,120,40,0.25);border-radius:14px;padding:14px;backdrop-filter:blur(8px);display:flex;flex-direction:column;gap:10px">
+      <div style="font-size:14px;font-weight:700;color:#5A1E00">{{ t.data }}</div>
+      <button onclick="{{ resetToday }}" style="border:1px solid rgba(180,120,40,.4);background:rgba(255,255,255,.6);color:#8B3A00;border-radius:10px;padding:10px;font-size:13px;cursor:pointer;font-family:inherit">आज की गिनती रीसेट करें</button>
+      <button onclick="{{ wipeAll }}" style="border:1px solid rgba(180,60,40,.4);background:rgba(211,47,35,.08);color:#b8231a;border-radius:10px;padding:10px;font-size:13px;cursor:pointer;font-family:inherit">सभी डेटा मिटाएं</button>
+    </div>
+    <!-- about -->
+    <div style="text-align:center;padding:8px;display:flex;flex-direction:column;gap:4px">
+      <div style="font-size:22px;color:#C8903A">ॐ</div>
+      <div style="font-size:12px;color:#a3672c;font-family:'Cinzel',serif">जय श्री राम — v1.0.0</div>
+    </div>
+  </div>
+  </sc-if>
+
+  </div>
+
+  <!-- ======= BOTTOM NAV ======= -->
+  <div style="position:relative;z-index:3;display:grid;grid-template-columns:1fr 1fr 1fr 1fr;background:rgba(255,252,245,.92);border-top:1px solid rgba(180,120,40,0.25);backdrop-filter:blur(10px);padding:6px 4px calc(6px + env(safe-area-inset-bottom))">
+    <sc-for list="{{ navItems }}" as="n" hint-placeholder-count="4">
+      <button onclick="{{ n.onTap }}" style="{{ n.style }}"><span style="font-size:19px;line-height:1">{{ n.icon }}</span><span style="font-size:10px;line-height:1.2">{{ n.label }}</span></button>
+    </sc-for>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script="" data-props="{&quot;$preview&quot;:{&quot;width&quot;:390,&quot;height&quot;:844},&quot;beadCount&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[27,54,108],&quot;default&quot;:108,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Mala&quot;},&quot;glowStrength&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;min&quot;:0,&quot;max&quot;:2,&quot;step&quot;:0.1,&quot;default&quot;:1,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Mala&quot;},&quot;showBackground&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Scene&quot;}}">
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.goalRef = React.createRef();
+    this.fxId = 0;
+    this.maxSeen = 0;
+    this.recog = null;
+    this.audioCtx = null;
+    const d = this.loadData();
+    const now = new Date();
+    this.state = {
+      screen: 'jap', mode: 'man', transcript: '',
+      data: d,
+      floats: [], petals: [], ripples: [],
+      showFlash: false, showCelebration: false,
+      calYear: now.getFullYear(), calMonth: now.getMonth(),
+      speechOk: typeof window !== 'undefined' && !!(window.SpeechRecognition || window.webkitSpeechRecognition)
+    };
+  }
+
+  todayStr() { const d = new Date(); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
+
+  defaultData() {
+    return { todayCount: 0, totalCount: 0, dailyGoal: 108, streak: 0, longestStreak: 0, goalMetToday: false, lastDate: this.todayStr(), history: [], settings: { sounds: true, haptics: true, lang: 'hi' } };
+  }
+
+  loadData() {
+    let d = this.defaultData();
+    try {
+      const raw = localStorage.getItem('jsr_japa_v1');
+      if (raw) d = Object.assign(this.defaultData(), JSON.parse(raw));
+      d.settings = Object.assign({ sounds: true, haptics: true, lang: 'hi' }, d.settings || {});
+    } catch (e) { }
+    const today = this.todayStr();
+    if (d.lastDate && d.lastDate !== today) {
+      if (d.todayCount > 0) d.history.push({ date: d.lastDate, count: d.todayCount, goalMet: !!d.goalMetToday });
+      const y = new Date(); y.setDate(y.getDate() - 1);
+      const yStr = y.getFullYear() + '-' + String(y.getMonth() + 1).padStart(2, '0') + '-' + String(y.getDate()).padStart(2, '0');
+      if (!(d.lastDate === yStr && d.goalMetToday)) d.streak = 0;
+      d.todayCount = 0; d.goalMetToday = false;
+      if (d.history.length > 180) d.history = d.history.slice(-180);
+    }
+    d.lastDate = today;
+    try { localStorage.setItem('jsr_japa_v1', JSON.stringify(d)); } catch (e) { }
+    return d;
+  }
+
+  saveData(d) { try { localStorage.setItem('jsr_japa_v1', JSON.stringify(d)); } catch (e) { } }
+
+  setData(mut) {
+    this.setState(s => {
+      const d = JSON.parse(JSON.stringify(s.data));
+      mut(d);
+      this.saveData(d);
+      return { data: d };
+    });
+  }
+
+  // ---------- audio ----------
+  ctx() {
+    if (!this.audioCtx) { try { this.audioCtx = new (window.AudioContext || window.webkitAudioContext)(); } catch (e) { } }
+    if (this.audioCtx && this.audioCtx.state === 'suspended') this.audioCtx.resume();
+    return this.audioCtx;
+  }
+  playChime() {
+    const c = this.ctx(); if (!c) return;
+    [1318, 987, 1174].forEach((f, i) => {
+      const o = c.createOscillator(), g = c.createGain();
+      o.type = 'sine'; o.frequency.value = f;
+      const t = c.currentTime + i * 0.18;
+      g.gain.setValueAtTime(0.0001, t);
+      g.gain.exponentialRampToValueAtTime(0.22, t + 0.02);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + 1.6);
+      o.connect(g); g.connect(c.destination); o.start(t); o.stop(t + 1.7);
+    });
+  }
+  playBell() {
+    const c = this.ctx(); if (!c) return;
+    const t = c.currentTime;
+    [[220, 0.35, 4.5], [440, 0.18, 3.5], [660, 0.1, 2.6], [881, 0.06, 2], [1102, 0.04, 1.4]].forEach(h => {
+      const o = c.createOscillator(), g = c.createGain();
+      o.type = 'sine'; o.frequency.value = h[0];
+      g.gain.setValueAtTime(0.0001, t);
+      g.gain.exponentialRampToValueAtTime(h[1], t + 0.015);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + h[2]);
+      o.connect(g); g.connect(c.destination); o.start(t); o.stop(t + h[2] + 0.1);
+    });
+  }
+
+  haptic() { if (this.state.data.settings.haptics && navigator.vibrate) { try { navigator.vibrate(12); } catch (e) { } } }
+
+  // ---------- effects ----------
+  spawnEffects() {
+    const id = ++this.fxId;
+    const texts = ['राम', 'जय राम', 'ॐ राम', 'श्री राम', 'जय सियाराम'];
+    const fl = {
+      id: 'f' + id, text: texts[Math.floor(Math.random() * texts.length)],
+      style: { position: 'absolute', zIndex: 30, left: (30 + Math.random() * 290) + 'px', top: (140 + Math.random() * 340) + 'px', fontSize: (16 + Math.random() * 10) + 'px', color: '#8B3A00', fontWeight: 700, textShadow: '0 1px 0 rgba(255,255,255,.8),0 0 12px rgba(240,168,48,.7)', pointerEvents: 'none', animation: 'floatUp 1.9s ease-out forwards', fontFamily: "'Tiro Devanagari Hindi',serif" }
+    };
+    const colors = [['#fbc6d9', '#ee86ae'], ['#fcd9b0', '#f0a05a'], ['#ffdf9a', '#F0A830'], ['#f7b8c6', '#e8788a']];
+    const newPetals = [];
+    for (let i = 0; i < 4; i++) {
+      const col = colors[i % colors.length];
+      newPetals.push({
+        id: 'p' + id + '_' + i,
+        style: { position: 'absolute', zIndex: 29, left: (150 + Math.random() * 90) + 'px', top: (300 + Math.random() * 120) + 'px', width: '13px', height: '21px', borderRadius: '50% 50% 50% 50%/60% 60% 40% 40%', background: 'linear-gradient(180deg,' + col[0] + ',' + col[1] + ')', boxShadow: 'inset 0 -2px 3px rgba(160,60,60,.2)', pointerEvents: 'none', animation: 'petalUp ' + (1.4 + Math.random() * 1.1).toFixed(2) + 's ease-out forwards', '--dx': ((Math.random() * 120 - 60) | 0) + 'px', '--rot': ((Math.random() * 300 - 150) | 0) + 'deg' }
+      });
+    }
+    const rip = { id: 'r' + id, style: { position: 'absolute', zIndex: 28, left: '50%', top: '392px', width: '170px', height: '170px', marginLeft: '-85px', marginTop: '-85px', borderRadius: '50%', border: '2px solid rgba(240,168,48,.8)', pointerEvents: 'none', animation: 'rippleOut .7s ease-out forwards' } };
+    this.setState(s => ({ floats: s.floats.concat([fl]).slice(-8), petals: s.petals.concat(newPetals).slice(-40), ripples: s.ripples.concat([rip]).slice(-4) }));
+    setTimeout(() => this.setState(s => ({ floats: s.floats.filter(f => f.id !== fl.id), petals: s.petals.filter(p => p.id.indexOf('p' + id + '_') !== 0), ripples: s.ripples.filter(r => r.id !== rip.id) })), 2600);
+  }
+
+  petalShower() {
+    const id = ++this.fxId;
+    const colors = [['#fbc6d9', '#ee86ae'], ['#fcd9b0', '#f0a05a'], ['#ffdf9a', '#F0A830'], ['#f7b8c6', '#e8788a']];
+    const shower = [];
+    for (let i = 0; i < 32; i++) {
+      const col = colors[i % colors.length];
+      shower.push({
+        id: 's' + id + '_' + i,
+        style: { position: 'absolute', zIndex: 51, left: (Math.random() * 380) + 'px', top: '-30px', width: '14px', height: '22px', borderRadius: '50% 50% 50% 50%/60% 60% 40% 40%', background: 'linear-gradient(180deg,' + col[0] + ',' + col[1] + ')', pointerEvents: 'none', animation: 'petalFall ' + (2.4 + Math.random() * 1.8).toFixed(2) + 's ease-in ' + (Math.random() * 0.8).toFixed(2) + 's forwards', '--dx': ((Math.random() * 160 - 80) | 0) + 'px', '--rot': ((Math.random() * 500 + 180) | 0) + 'deg' }
+      });
+    }
+    this.setState(s => ({ petals: s.petals.concat(shower) }));
+    setTimeout(() => this.setState(s => ({ petals: s.petals.filter(p => p.id.indexOf('s' + id + '_') !== 0) })), 5500);
+  }
+
+  // ---------- counting ----------
+  increment(delta) {
+    const before = this.state.data.todayCount;
+    const after = before + delta;
+    this.setData(d => {
+      d.todayCount += delta; d.totalCount += delta;
+      if (d.todayCount >= d.dailyGoal && !d.goalMetToday) {
+        d.goalMetToday = true; d.streak += 1;
+        if (d.streak > d.longestStreak) d.longestStreak = d.streak;
+      }
+    });
+    this.spawnEffects();
+    this.haptic();
+    const sounds = this.state.data.settings.sounds;
+    if (after > 0 && after % 108 === 0) {
+      if (sounds) this.playBell();
+      this.petalShower();
+      this.setState({ showCelebration: true, showFlash: true });
+      setTimeout(() => this.setState({ showCelebration: false, showFlash: false }), 3200);
+    } else if (after % 108 === 54) {
+      if (sounds) this.playChime();
+      this.setState({ showFlash: true });
+      setTimeout(() => this.setState({ showFlash: false }), 850);
+    }
+  }
+
+  // ---------- speech ----------
+  startListening() {
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SR) return;
+    if (this.recog) { try { this.recog.stop(); } catch (e) { } }
+    const r = new SR();
+    this.recog = r;
+    r.lang = 'hi-IN'; r.continuous = true; r.interimResults = true;
+    this.maxSeen = 0;
+    r.onresult = (ev) => {
+      let combined = '';
+      for (let i = 0; i < ev.results.length; i++) combined += ev.results[i][0].transcript + ' ';
+      const m = combined.match(/ra+m|राम|रम |रघुपति|raghupati/gi);
+      const n = m ? m.length : 0;
+      if (n > this.maxSeen) {
+        const delta = n - this.maxSeen;
+        this.maxSeen = n;
+        this.increment(delta);
+      }
+      this.setState({ transcript: combined.trim().slice(-60) });
+    };
+    r.onend = () => {
+      if (this.state.mode === 'vaani' && this.recog === r) {
+        this.maxSeen = 0;
+        setTimeout(() => { try { r.start(); } catch (e) { } }, 250);
+      }
+    };
+    r.onerror = () => { };
+    try { r.start(); } catch (e) { }
+  }
+
+  stopListening() {
+    if (this.recog) { const r = this.recog; this.recog = null; try { r.onend = null; r.stop(); } catch (e) { } }
+    this.setState({ transcript: '' });
+  }
+
+  componentWillUnmount() { this.stopListening(); }
+
+  // ---------- helpers for render ----------
+  fmtDate(iso, lang) {
+    const p = iso.split('-');
+    const dt = new Date(+p[0], +p[1] - 1, +p[2]);
+    try { return dt.toLocaleDateString(lang === 'hi' ? 'hi-IN' : 'en-IN', { day: 'numeric', month: 'short' }); } catch (e) { return p[2] + '/' + p[1]; }
+  }
+
+  renderVals() {
+    const s = this.state, d = s.data, lang = d.settings.lang;
+    const today = this.todayStr();
+    const T = lang === 'hi' ? {
+      streak: 'अनुक्रम', today: 'आज', goal: 'लक्ष्य', total: 'कुल',
+      best: 'सर्वश्रेष्ठ दिन', avg: 'दैनिक औसत', days: 'अभ्यास के दिन',
+      current: 'वर्तमान अनुक्रम', longest: 'सबसे लंबा अनुक्रम',
+      goalMet: 'लक्ष्य पूर्ण', partial: 'आंशिक', none: 'कोई जप नहीं',
+      dailyGoal: 'दैनिक लक्ष्य', customGoal: 'अपना लक्ष्य', audio: 'ध्वनि', language: 'भाषा', data: 'डेटा',
+      sounds: 'मील का पत्थर ध्वनि', haptics: 'कंपन प्रतिक्रिया',
+      nav: ['जप', 'इतिहास', 'अनुक्रम', 'सेटिंग'], listen: 'श्रवण हो रहा है... राम बोलें', nosr: 'यह ब्राउज़र वाणी जप नहीं चला सकता — Chrome उपयोग करें'
+    } : {
+      streak: 'Streak', today: 'Today', goal: 'Goal', total: 'Total',
+      best: 'Best day', avg: 'Daily average', days: 'Days practiced',
+      current: 'Current streak', longest: 'Longest streak',
+      goalMet: 'Goal met', partial: 'Partial', none: 'No jap',
+      dailyGoal: 'Daily goal', customGoal: 'Custom goal', audio: 'Audio', language: 'Language', data: 'Data',
+      sounds: 'Milestone sounds', haptics: 'Haptic feedback',
+      nav: ['Jap', 'History', 'Streak', 'Settings'], listen: 'Listening... say Ram', nosr: 'Speech not supported here — use Chrome'
+    };
+
+    // ----- beads -----
+    const N = Math.max(9, +(this.props.beadCount ?? 108));
+    const glow = +(this.props.glowStrength ?? 1);
+    const beads = [];
+    const cx = 120, cy = 120, R = 106;
+    const bs = Math.max(6, Math.min(20, (2 * Math.PI * R / N) * 0.85));
+    const spEvery = N <= 27 ? 3 : (N <= 54 ? 9 : 27);
+    const spSize = Math.max(4, Math.round(bs * 0.55));
+    const lit = d.todayCount > 0 ? (d.todayCount % N === 0 ? N : d.todayCount % N) : 0;
+    for (let i = 0; i < N; i++) {
+      const a = (i / N) * Math.PI * 2 - Math.PI / 2;
+      const x = cx + R * Math.cos(a), y = cy + R * Math.sin(a);
+      const isLit = i < lit;
+      beads.push({
+        style: {
+          position: 'absolute', left: (x - bs / 2) + 'px', top: (y - bs / 2) + 'px', width: bs + 'px', height: bs + 'px', borderRadius: '50%',
+          background: 'radial-gradient(circle at 32% 28%, #fff 0%, #c98d4e 14%, #8a5426 48%, #5c3312 82%, #3f2008 100%)',
+          boxShadow: isLit ? '0 0 7px 2px rgba(240,168,48,.9), inset -1px -1px 2px rgba(0,0,0,.5)' : 'inset -1px -1px 2px rgba(0,0,0,.55), 0 1px 2px rgba(80,40,0,.35)',
+          border: isLit ? '1px solid rgba(255,200,90,.95)' : '1px solid rgba(60,30,5,.35)',
+          transition: 'box-shadow .3s ease'
+        }
+      });
+      if (i % spEvery === spEvery - 1) {
+        const a2 = ((i + 0.5) / N) * Math.PI * 2 - Math.PI / 2;
+        const R2 = R + bs * 0.9;
+        const x2 = cx + R2 * Math.cos(a2), y2 = cy + R2 * Math.sin(a2);
+        beads.push({ style: { position: 'absolute', left: (x2 - spSize / 2) + 'px', top: (y2 - spSize / 2) + 'px', width: spSize + 'px', height: spSize + 'px', borderRadius: '50%', background: 'radial-gradient(circle at 35% 30%, #ffedb8 0%, #e2a936 50%, #96660f 100%)', boxShadow: '0 0 3px rgba(240,168,48,.6)' } });
+      }
+    }
+    const malaRingStyle = { position: 'absolute', left: '5px', top: '0px', width: '240px', height: '240px' };
+
+    const glowHaloStyle = { position: 'absolute', left: '50%', top: '120px', transform: 'translate(-50%,-50%)', width: '190px', height: '190px', borderRadius: '50%', pointerEvents: 'none', background: 'radial-gradient(circle, rgba(255,205,110,' + (0.35 * glow) + ') 0%, rgba(255,190,80,' + (0.15 * glow) + ') 55%, rgba(255,190,80,0) 75%)' };
+
+    // ----- progress -----
+    const progressPct = Math.min(100, Math.round((d.todayCount / Math.max(1, d.dailyGoal)) * 100));
+
+    // ----- history -----
+    const histMap = {};
+    d.history.forEach(h => { histMap[h.date] = h; });
+    histMap[today] = { date: today, count: d.todayCount, goalMet: d.goalMetToday };
+    const bars = [];
+    for (let i = 0; i < 30; i++) {
+      const dt = new Date(); dt.setDate(dt.getDate() - i);
+      const key = dt.getFullYear() + '-' + String(dt.getMonth() + 1).padStart(2, '0') + '-' + String(dt.getDate()).padStart(2, '0');
+      const h = histMap[key];
+      const count = h ? h.count : 0;
+      bars.push({ key, count, goalMet: h ? h.goalMet : false, isToday: key === today });
+    }
+    const maxC = Math.max(1, ...bars.map(b => b.count));
+    const barVals = bars.map(b => ({
+      label: this.fmtDate(b.key, lang),
+      count: b.count,
+      check: b.goalMet ? '✓' : '',
+      rowStyle: Object.assign({ display: 'flex', alignItems: 'center', gap: '8px', padding: '3px 4px', borderRadius: '8px' }, b.isToday ? { border: '1.5px solid #8B3A00', background: 'rgba(139,58,0,.05)' } : {}),
+      fillStyle: { height: '100%', width: Math.max(b.count > 0 ? 4 : 0, Math.round((b.count / maxC) * 100)) + '%', borderRadius: '7px', background: b.goalMet ? 'linear-gradient(90deg,#C8903A,#a86f1c)' : 'linear-gradient(90deg,#F0A830,#e9c069)', transition: 'width .5s ease' }
+    }));
+    const practiced = d.history.filter(h => h.count > 0);
+    const allDays = practiced.concat(d.todayCount > 0 ? [{ count: d.todayCount }] : []);
+    const bestDay = allDays.length ? Math.max(...allDays.map(h => h.count)) : 0;
+    const avgDay = allDays.length ? Math.round(allDays.reduce((a, h) => a + h.count, 0) / allDays.length) : 0;
+    const hasHistory = allDays.length > 0;
+
+    // ----- calendar -----
+    const cy2 = s.calYear, cm = s.calMonth;
+    const first = new Date(cy2, cm, 1);
+    const daysInMonth = new Date(cy2, cm + 1, 0).getDate();
+    const startDow = first.getDay();
+    const now = new Date();
+    const calCells = [];
+    for (let i = 0; i < startDow; i++) calCells.push({ label: '', mark: '', style: { height: '38px' } });
+    for (let day = 1; day <= daysInMonth; day++) {
+      const key = cy2 + '-' + String(cm + 1).padStart(2, '0') + '-' + String(day).padStart(2, '0');
+      const h = histMap[key];
+      const isToday = key === today;
+      const isFuture = new Date(cy2, cm, day) > now && !isToday;
+      let bg = 'rgba(180,120,40,.08)', color = '#8B3A00', border = '1px solid rgba(180,120,40,.18)', mark = '';
+      if (isFuture) { bg = 'transparent'; color = 'rgba(163,103,44,.35)'; border = '1px dashed rgba(180,120,40,.15)'; }
+      else if (h && h.goalMet) { bg = 'linear-gradient(135deg,#F0A830,#C8903A)'; color = '#fff'; mark = '✓'; border = '1px solid rgba(150,102,15,.5)'; }
+      else if (h && h.count > 0) { bg = 'rgba(240,168,48,.3)'; mark = ''; }
+      const st = { height: '38px', borderRadius: '8px', background: bg, color, border, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', fontSize: '12px', fontWeight: 700, gap: '1px' };
+      if (isToday) { st.border = '2px solid #8B3A00'; st.boxShadow = '0 0 0 2px rgba(139,58,0,.15)'; }
+      calCells.push({ label: String(day), mark: isToday && !mark ? '•' : mark, style: st });
+    }
+    let monthLabel = '';
+    try { monthLabel = new Date(cy2, cm, 1).toLocaleDateString(lang === 'hi' ? 'hi-IN' : 'en-IN', { month: 'long', year: 'numeric' }); } catch (e) { monthLabel = (cm + 1) + '/' + cy2; }
+
+    // ----- settings -----
+    const presets = [11, 21, 54, 108, 216, 1008].map(v => ({
+      v, onTap: () => this.setData(dd => { dd.dailyGoal = v; dd.goalMetToday = dd.todayCount >= v; }),
+      style: d.dailyGoal === v
+        ? { border: 'none', background: 'linear-gradient(135deg,#F0A830,#C8903A)', color: '#fff', borderRadius: '999px', padding: '7px 16px', fontSize: '13px', fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit', boxShadow: '0 2px 8px rgba(200,144,58,.5)' }
+        : { border: '1px solid rgba(180,120,40,.35)', background: 'rgba(255,255,255,.6)', color: '#8B3A00', borderRadius: '999px', padding: '7px 16px', fontSize: '13px', cursor: 'pointer', fontFamily: 'inherit' }
+    }));
+    const mkToggle = (key, label) => {
+      const on = !!d.settings[key];
+      return {
+        label, on,
+        onTap: () => this.setData(dd => { dd.settings[key] = !dd.settings[key]; }),
+        trackStyle: { position: 'relative', width: '46px', height: '26px', borderRadius: '999px', border: 'none', cursor: 'pointer', background: on ? 'linear-gradient(135deg,#F0A830,#C8903A)' : 'rgba(180,120,40,.25)', transition: 'background .25s ease', padding: 0 },
+        knobStyle: { position: 'absolute', top: '3px', left: on ? '23px' : '3px', width: '20px', height: '20px', borderRadius: '50%', background: '#fff', boxShadow: '0 1px 3px rgba(90,40,0,.4)', transition: 'left .25s ease' }
+      };
+    };
+    const toggles = [mkToggle('sounds', T.sounds), mkToggle('haptics', T.haptics)];
+    const langBtn = (active) => active
+      ? { flex: 1, border: 'none', background: 'linear-gradient(135deg,#F0A830,#C8903A)', color: '#fff', borderRadius: '10px', padding: '9px', fontSize: '13px', fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit' }
+      : { flex: 1, border: '1px solid rgba(180,120,40,.35)', background: 'rgba(255,255,255,.6)', color: '#8B3A00', borderRadius: '10px', padding: '9px', fontSize: '13px', cursor: 'pointer', fontFamily: 'inherit' };
+
+    // ----- nav -----
+    const screens = ['jap', 'history', 'streak', 'settings'];
+    const icons = ['🪷', '📿', '🔥', '⚙️'];
+    const navItems = screens.map((sc, i) => ({
+      icon: icons[i], label: T.nav[i],
+      onTap: () => this.setState({ screen: sc }),
+      style: { display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '3px', background: 'none', border: 'none', cursor: 'pointer', padding: '6px 2px', fontFamily: 'inherit', color: s.screen === sc ? '#8B3A00' : 'rgba(163,103,44,.55)', fontWeight: s.screen === sc ? 700 : 400, borderRadius: '10px', transition: 'color .2s' }
+    }));
+
+    // mode pill
+    const isVaani = s.mode === 'vaani';
+    const pillStyle = { position: 'absolute', top: '4px', bottom: '4px', width: 'calc(50% - 4px)', left: isVaani ? '50%' : '4px', borderRadius: '999px', background: 'linear-gradient(135deg,#F0A830,#C8903A)', boxShadow: '0 2px 8px rgba(200,144,58,.5)', transition: 'left .3s cubic-bezier(.4,0,.2,1)' };
+    const modeBtn = (active) => ({ position: 'relative', zIndex: 1, background: 'none', border: 'none', padding: '8px 0', fontSize: '14px', fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit', color: active ? '#fff' : '#8B3A00', transition: 'color .3s' });
+
+    return {
+      showBg: (this.props.showBackground ?? true) !== false,
+      t: T,
+      isJap: s.screen === 'jap', isHistory: s.screen === 'history', isStreak: s.screen === 'streak', isSettings: s.screen === 'settings',
+      todayCount: d.todayCount, totalCount: d.totalCount, dailyGoal: d.dailyGoal, streak: d.streak, longestStreak: d.longestStreak,
+      progressPct,
+      beads, malaRingStyle, glowHaloStyle,
+      floats: s.floats, petals: s.petals, ripples: s.ripples,
+      showFlash: s.showFlash, showCelebration: s.showCelebration,
+      tap: () => { this.ctx(); this.increment(1); },
+      goSettings: () => this.setState({ screen: 'settings' }),
+      isVaani, pillStyle,
+      manBtnStyle: modeBtn(!isVaani), vaaniBtnStyle: modeBtn(isVaani),
+      setModeMan: () => { this.setState({ mode: 'man' }); this.stopListening(); },
+      setModeVaani: () => { this.setState({ mode: 'vaani' }); this.ctx(); this.startListening(); },
+      listenLabel: s.speechOk ? T.listen : T.nosr,
+      transcript: s.transcript,
+      // history
+      hasHistory, noHistory: !hasHistory, bars: barVals, bestDay, avgDay, daysPracticed: allDays.length,
+      // streak / calendar
+      calCells, monthLabel,
+      prevMonth: () => this.setState(ss => { let m = ss.calMonth - 1, y = ss.calYear; if (m < 0) { m = 11; y--; } return { calMonth: m, calYear: y }; }),
+      nextMonth: () => this.setState(ss => { let m = ss.calMonth + 1, y = ss.calYear; if (m > 11) { m = 0; y++; } return { calMonth: m, calYear: y }; }),
+      // settings
+      presets, toggles, goalRef: this.goalRef,
+      applyCustomGoal: () => {
+        const el = this.goalRef.current;
+        const v = el ? parseInt(el.value, 10) : NaN;
+        if (v && v > 0) { this.setData(dd => { dd.dailyGoal = v; dd.goalMetToday = dd.todayCount >= v; }); if (el) el.value = ''; }
+      },
+      setLangHi: () => this.setData(dd => { dd.settings.lang = 'hi'; }),
+      setLangEn: () => this.setData(dd => { dd.settings.lang = 'en'; }),
+      langHiStyle: langBtn(lang === 'hi'), langEnStyle: langBtn(lang !== 'hi'),
+      resetToday: () => {
+        const msg = lang === 'hi' ? 'क्या आप आज की गिनती रीसेट करना चाहते हैं?' : 'Reset today\'s count?';
+        if (window.confirm(msg)) this.setData(dd => { dd.totalCount = Math.max(0, dd.totalCount - dd.todayCount); dd.todayCount = 0; dd.goalMetToday = false; });
+      },
+      wipeAll: () => {
+        const msg = lang === 'hi' ? 'सभी डेटा स्थायी रूप से मिट जाएगा। क्या आप निश्चित हैं?' : 'All data will be permanently erased. Are you sure?';
+        if (window.confirm(msg)) { const fresh = this.defaultData(); this.saveData(fresh); this.setState({ data: fresh }); }
+      },
+      navItems
+    };
+  }
+}
+</script>
+
+
+
+</body></html>
